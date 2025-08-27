@@ -1,9 +1,6 @@
-# Final_project
-Final Dissertation
 
 
----
-
+# **Deep Learning Approaches for Lung Disease Classification Using Chest X-ray Images**
 
 ## Project Overview
 
@@ -16,10 +13,39 @@ The project demonstrates the potential of transfer learning in medical image ana
 ## Project Structure
 
 * `data/` → Chest X-ray dataset (from Kaggle)
-* `notebooks/` → colab/jupyter notebooks containing EDA, model training, and evaluation
+* `notebooks/` → Jupyter notebooks/colab containing EDA, model training, and evaluation
 * `results/` → Accuracy/loss curves, confusion matrices, and prediction outputs
 * `figures/` → Workflow diagrams (Custom CNN, MobileNetV2, VGG16)
 * `report/` → Final dissertation document (Word/PDF)
+
+---
+
+## Getting Started
+
+### Clone the Repository
+
+To get a local copy of the project, run:
+
+```bash
+git clone https://github.com/UmerAsif435/Final_project.git
+cd Final_project
+```
+
+### Install Requirements
+
+Create a virtual environment (recommended) and install dependencies:
+
+```bash
+pip install -r requirements.txt
+```
+
+### Run Jupyter Notebook
+
+To explore the project interactively:
+
+```bash
+jupyter notebook // colab
+```
 
 ---
 
@@ -82,7 +108,7 @@ The project demonstrates the potential of transfer learning in medical image ana
 To run the notebooks, install the following libraries:
 
 ```bash
-pip install tensorflow keras matplotlib seaborn scikit-learn
+pip install -r requirements.txt
 ```
 
 ---
